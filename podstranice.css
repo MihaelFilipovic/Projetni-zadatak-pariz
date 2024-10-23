@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+}
+#onama {
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    color: #000000;
+}
+#kontakt {
+    background-color: #fff;
+    padding: 20px;
+    margin: 40px;
+    color: #000000;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#333;
+    color: #fff;
+    padding: 20px;
+}
+
+header .imepodstranice h1 {
+    font-size: 48px;
+}
+/* Navigacija unutar zaglavlja */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+/* Stilizacija sekcija */
+section {
+    padding: 20px;
+}
+#noga {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
